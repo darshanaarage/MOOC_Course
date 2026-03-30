@@ -1,0 +1,16 @@
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 32765;
+
+    printf("Initial value of a = %d\n", a);
+
+    a = a + 5;
+
+    printf("Value after adding 5 = %d\n", a);
+
+    return 0;
+}
