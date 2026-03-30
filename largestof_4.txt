@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main()
+{
+int number1, number2, number3;
+printf("Please Enter First number: ");
+scanf("%d", &number1);
+printf("Please Enter Second number : ");
+scanf("%d" , &number2);
+printf("Please Enter Third number: ");
+sacnf("%d" ,&number3);
+{
+if(number1 > number2)
+{
+if(number1 > number3)
+{
+printf("Number one is the largest");
+}
+else
+{
+printf("Number Three is the largest");
+}
+}
+else if(number2 > number3)
+{
+printf("Number two is the largest");
+}
+else
+{
+printf("Number three is the largest");
+}
+}
+return 0;
+}
